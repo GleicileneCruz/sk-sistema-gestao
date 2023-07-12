@@ -1,3 +1,12 @@
-INSERT INTO tb_category(name) VALUES ('Maquiagens');
-INSERT INTO tb_category(name) VALUES ('Acessorios');
-INSERT INTO tb_category(name) VALUES ('Cosmeticos');
+INSERT INTO tb_category(name, created_At) VALUES ('Maquiagens', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Acessorios', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Cosmeticos', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Oculos', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Bolsa', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Cinto', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Sandalia', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Kit Capilar', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Protetor', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Perfumaria', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Hidratação', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('Infantil', NOW());
